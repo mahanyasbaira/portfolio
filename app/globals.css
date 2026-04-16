@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #F5F2EB;
+    --bg-elevated: #FBF9F3;
+    --fg: #0B1120;
+    --fg-muted: #4A5366;
+    --border: rgba(11, 17, 32, 0.08);
+    --primary: #1F77B4;
+    --primary-contrast: #FFFFFF;
+    --accent: #C9A96E;
+    --grid: rgba(11, 17, 32, 0.06);
+    --glow: rgba(31, 119, 180, 0.18);
+  }
+
+  .dark {
+    --bg: #06080F;
+    --bg-elevated: #0B1120;
+    --fg: #F5F2EB;
+    --fg-muted: #9AA3B2;
+    --border: rgba(245, 242, 235, 0.08);
+    --primary: #4FC3F7;
+    --primary-contrast: #06080F;
+    --accent: #F4C430;
+    --grid: rgba(245, 242, 235, 0.06);
+    --glow: rgba(79, 195, 247, 0.22);
+  }
+
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--primary);
+    color: var(--primary-contrast);
+  }
+
+  /* Anchor offset for fixed nav */
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+}
+
+@layer components {
+  .container-prose {
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .text-gradient {
+    background: linear-gradient(120deg, var(--primary) 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .grid-backdrop {
+    background-image:
+      linear-gradient(to right, var(--grid) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+
+  .dotted-backdrop {
+    background-image: radial-gradient(circle, var(--grid) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .glass {
+    background-color: color-mix(in srgb, var(--bg-elevated) 72%, transparent);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+  }
+}
+
+@layer utilities {
+  .mask-radial-fade {
+    mask-image: radial-gradient(ellipse at center, black 40%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 40%, transparent 75%);
+  }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}

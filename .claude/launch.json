@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "name": "next-dev",
+      "description": "Next.js 15 dev server with hot reload on port 3000",
+      "cwd": "./",
+      "command": "npm run dev",
+      "readyUrl": "http://localhost:3000",
+      "readyTimeoutMs": 60000,
+      "env": {},
+      "default": true
+    },
+    {
+      "name": "vitest-watch",
+      "description": "Vitest watch mode for unit tests",
+      "cwd": "./",
+      "command": "npm run test:watch",
+      "env": {},
+      "default": false
+    }
+  ]
+}
