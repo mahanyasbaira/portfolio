@@ -29,7 +29,7 @@ export function HeroSection() {
               fill
               sizes="(max-width: 768px) 180px, 200px"
               priority
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
         </motion.div>
