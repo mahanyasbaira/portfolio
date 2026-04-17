@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ArrowUpRight, Github } from 'lucide-react';
 import { SectionHeading } from '@/components/ui/section-heading';
-import { Terminal } from '@/components/ui/terminal';
+import { ArchitectureDiagram } from '@/components/ui/architecture-diagram';
 import { projects } from '@/content/projects';
 
 export function ProjectsSection() {
@@ -11,7 +11,7 @@ export function ProjectsSection() {
         <SectionHeading
           eyebrow="Projects"
           title="Things I’ve built end-to-end."
-          description="Full-stack, ML, and VR — each one shipped with its own metric that matters."
+          description="Full-stack, ML, and VR, each one shipped with its own metric that matters."
         />
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((p) => (
@@ -52,7 +52,7 @@ export function ProjectsSection() {
                 </div>
               ) : null}
               <div className="mt-4">
-                <Terminal lines={p.terminalLines} />
+                <ArchitectureDiagram architecture={p.architecture} />
               </div>
               <div className="mt-4 flex flex-wrap gap-1.5">
                 {p.stack.map((s) => (

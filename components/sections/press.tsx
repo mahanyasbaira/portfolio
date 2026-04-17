@@ -37,7 +37,7 @@ export function PressSection() {
               <div className="font-mono text-[11px] uppercase tracking-[0.18em] text-[var(--fg-muted)]">
                 Companion · PDF
               </div>
-              <h3 className="mt-2 font-serif text-xl leading-tight">Phishing blog — read the deep dive</h3>
+              <h3 className="mt-2 font-serif text-xl leading-tight">Phishing blog: read the deep dive</h3>
             </div>
             <div className="mt-4 inline-flex items-center gap-1 text-sm text-[var(--primary)]">
               Open PDF <ArrowUpRight className="h-4 w-4" />

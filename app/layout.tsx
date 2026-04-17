@@ -12,11 +12,11 @@ const jetbrains = JetBrains_Mono({ subsets: ['latin'], variable: '--font-jetbrai
 export const metadata: Metadata = {
   metadataBase: new URL('https://mahanyasbaira.vercel.app'),
   title: {
-    default: 'Mahanyas Baira — Software Engineer & ML Researcher',
+    default: 'Mahanyas Baira · Student Systems Software Engineer',
     template: '%s · Mahanyas Baira',
   },
   description:
-    'Mahanyas Baira — CS @ Colorado State, ML research, hackathon winner (Hack4Health, AgriVerse VR), and systems software engineer building AI-first tools.',
+    'Mahanyas Baira. CS @ Colorado State, ML research, hackathon winner (Hack4Health, AgriVerse VR), and systems software engineer building AI-first tools.',
   keywords: [
     'Mahanyas Baira',
     'Software Engineer',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Mahanyas Baira', url: 'https://github.com/mahanyasbaira' }],
   creator: 'Mahanyas Baira',
   openGraph: {
-    title: 'Mahanyas Baira — Software Engineer & ML Researcher',
+    title: 'Mahanyas Baira · Student Systems Software Engineer',
     description:
       'CS @ Colorado State · ML research · Hackathon winner · Systems software engineer',
     url: 'https://mahanyasbaira.vercel.app',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mahanyas Baira — Software Engineer & ML Researcher',
+    title: 'Mahanyas Baira · Student Systems Software Engineer',
     description: 'CS @ Colorado State · ML research · Hackathon winner',
   },
   robots: { index: true, follow: true },

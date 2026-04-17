@@ -39,7 +39,7 @@ export const experiences: Experience[] = [
   {
     id: 'csu-it-support',
     role: 'IT Support Specialist',
-    org: 'Colorado State University — Morgan Library',
+    org: 'Colorado State University · Morgan Library',
     orgUrl: 'https://lib.colostate.edu',
     type: 'Part-time',
     location: 'Fort Collins, CO',
@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
   },
   {
     id: 'ai-leaf',
-    role: 'Undergraduate Research Scholar — AI-LEAF',
+    role: 'Undergraduate Research Scholar · AI-LEAF',
     org: 'AI-LEAF Institute',
     orgUrl: 'https://ai-leaf.org',
     type: 'Research',
@@ -127,9 +127,9 @@ export const experiences: Experience[] = [
     start: '2022-08',
     end: '2024-05',
     summary:
-      'Led the school-wide robotics and ICT program — hands-on projects, workshops, and mentoring.',
+      'Led the school-wide robotics and ICT program with hands-on projects, workshops, and mentoring.',
     bullets: [
-      'Captained the Design Technology & Robotics Club — ran hackathon-style builds and workshops.',
+      'Captained the Design Technology & Robotics Club, running hackathon-style builds and workshops.',
       'Directed ICT events end-to-end: stage tech, video production, and cross-grade tech support.',
       'Mentored juniors on programming, design, and robotics competitions.',
     ],

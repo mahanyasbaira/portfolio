@@ -33,7 +33,7 @@ export const certifications: Certification[] = [
   },
   {
     id: 'gcp-ai',
-    name: 'Google Cloud Digital Cloud Leader — Innovating with GCP AI',
+    name: 'Google Cloud Digital Cloud Leader: Innovating with GCP AI',
     issuer: 'Google Cloud / LinkedIn Learning',
     image: '/images/certs/gcp-ai.jpeg',
     verifyUrl: L.one,
@@ -49,7 +49,7 @@ export const certifications: Certification[] = [
   },
   {
     id: 'aws-educate-ml',
-    name: 'AWS Educate — Machine Learning Foundations',
+    name: 'AWS Educate: Machine Learning Foundations',
     issuer: 'AWS Educate',
     image: '/images/certs/aws-educate-ml.png',
     verifyUrl: L.three,
@@ -57,7 +57,7 @@ export const certifications: Certification[] = [
   },
   {
     id: 'aws-educate-genai',
-    name: 'AWS Educate — Introduction to Generative AI',
+    name: 'AWS Educate: Introduction to Generative AI',
     issuer: 'AWS Educate',
     image: '/images/certs/aws-educate-genai.png',
     verifyUrl: L.four,
@@ -84,13 +84,6 @@ export const certifications: Certification[] = [
     name: 'DevOps Professional Certificate',
     issuer: 'PagerDuty / LinkedIn Learning',
     image: '/images/certs/pagerduty-devops.jpeg',
-    category: 'DevOps',
-  },
-  {
-    id: 'pagerduty-cert',
-    name: 'PagerDuty Incident Response Certificate',
-    issuer: 'PagerDuty',
-    image: '/images/certs/pagerduty-cert.jpeg',
     category: 'DevOps',
   },
   {

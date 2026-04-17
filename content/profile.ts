@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Mahanyas Baira',
-  tagline: 'Software Engineer & ML Researcher',
+  tagline: 'Student Systems Software Engineer',
   headline:
     'CS @ Colorado State building AI-first tools. ML research, hackathon wins, and systems that ship.',
   location: 'Fort Collins, Colorado',

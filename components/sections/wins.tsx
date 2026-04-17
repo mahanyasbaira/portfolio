@@ -9,7 +9,7 @@ export function WinsSection() {
         <SectionHeading
           eyebrow="Hackathon wins"
           title="First-place finishes."
-          description="Two hackathons, two first-place podiums — both with working demos judged on stage."
+          description="Two hackathons, two first-place podiums, both with working demos judged on stage."
         />
         <div className="grid gap-10 lg:grid-cols-2">
           {wins.map((w) => (

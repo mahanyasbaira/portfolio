@@ -25,15 +25,15 @@ export const volunteering: Volunteering[] = [
   },
   {
     id: 'interact-rotary',
-    role: 'Director of IT — Interact Club',
-    org: 'Rotary International — Interact',
+    role: 'Director of IT, Interact Club',
+    org: 'Rotary International · Interact',
     orgUrl: 'https://www.rotary.org/en/get-involved/interact-clubs',
     start: '2022-10',
     end: '2023-06',
     cause: 'Social Services',
     bullets: [
       'Ran the tech stack for a Rotary-sponsored service club: AV, registrations, and comms.',
-      'Led Cyber Safety workshops for kids under 10 — staying safe online, with parents in the room.',
+      'Led Cyber Safety workshops for kids under 10, teaching how to stay safe online with parents in the room.',
       'Supported Book Donation Drive, Paper Collection, and adult literacy teaching programs.',
     ],
   },
@@ -57,6 +57,6 @@ export const press: Press[] = [
     date: '2025-09',
     url: 'https://collegian.com/articles/featured/2025/09/category-news-csu-system-it-dept-staff-interns-guard-against-student-scams/',
     excerpt:
-      'Claire VanDeventer\'s feature on the CSU cybersecurity team\'s outreach to students on phishing and scams — co-led campus-wide awareness as a CSU cyber intern.',
+      'Claire VanDeventer\'s feature on the CSU cybersecurity team\'s outreach to students on phishing and scams. I co-led campus-wide awareness as a CSU cyber intern.',
   },
 ];

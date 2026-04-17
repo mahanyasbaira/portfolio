@@ -11,11 +11,11 @@ describe('SkillsSection', () => {
     }
   });
 
-  it('renders every individual skill chip', () => {
+  it('renders every individual skill name', () => {
     render(<SkillsSection />);
     const allItems = skillGroups.flatMap((g) => g.items);
     for (const item of allItems) {
-      expect(screen.getAllByText(item).length).toBeGreaterThan(0);
+      expect(screen.getAllByText(item.name).length).toBeGreaterThan(0);
     }
   });
 });

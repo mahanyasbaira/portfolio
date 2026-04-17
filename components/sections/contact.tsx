@@ -16,7 +16,7 @@ export function ContactSection() {
             Say hi, <span className="text-gradient">we’ll figure out the rest</span>.
           </h2>
           <p className="mt-5 text-lg text-[var(--fg-muted)]">
-            Best via email. I reply within a day — sooner if it’s about ML research, hackathons, or
+            Best via email. I reply within a day, sooner if it’s about ML research, hackathons, or
             anything weird and ambitious.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">

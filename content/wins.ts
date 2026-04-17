@@ -13,7 +13,7 @@ export type Win = {
 export const wins: Win[] = [
   {
     id: 'hack4health',
-    title: 'Hack4Health 2026 — Campus Safety Track',
+    title: 'Hack4Health 2026 · Campus Safety Track',
     place: '🏆 1st Place',
     event: 'Hack4Health 2026',
     year: 2026,
@@ -21,14 +21,14 @@ export const wins: Win[] = [
     description:
       'Built a real-time phishing + scam detector for college students in 24 hours. Pitched on-stage to a judging panel; the work carried through to a Rocky Mountain Collegian feature on CSU-system cyber outreach.',
     images: [
-      { src: '/images/hack4health-podium.png', alt: 'Mahanyas presenting at the Hack4Health podium with the Colorado flag.' },
-      { src: '/images/hack4health-team.png', alt: 'Team working together at Hack4Health.' },
+      { src: '/images/hack4health-podium.jpg', alt: 'Mahanyas presenting at the Hack4Health podium with the Colorado flag.' },
+      { src: '/images/hack4health-team.jpg', alt: 'Team working together at Hack4Health.' },
     ],
     stack: ['Python', 'React', 'ML Classifier'],
   },
   {
     id: 'agriverse-vr',
-    title: 'AgriVerse VR — Engineering Innovation Challenge',
+    title: 'AgriVerse VR · Engineering Innovation Challenge',
     place: '🏆 1st Place',
     event: 'CSU Engineering Innovation Challenge',
     year: 2025,

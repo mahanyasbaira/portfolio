@@ -7,6 +7,7 @@ const nextConfig = {
       { protocol: 'https', hostname: 'github-readme-stats.vercel.app' },
       { protocol: 'https', hostname: 'ghchart.rshah.org' },
       { protocol: 'https', hostname: 'media.licdn.com' },
+      { protocol: 'https', hostname: 'skillicons.dev' },
     ],
   },
 };

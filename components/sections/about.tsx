@@ -16,7 +16,7 @@ export function AboutSection() {
         <div>
           <SectionHeading
             eyebrow="About"
-            title="I build systems that ship — and research that holds up."
+            title="I build systems that ship, and research that holds up."
           />
           <div className="space-y-4 text-lg leading-relaxed text-[var(--fg-muted)]">
             <p>
